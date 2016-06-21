@@ -1,0 +1,30 @@
+{
+  "name": "fela/social-follow",
+  "description": "A Social Feature Package for \"Follow and Unfollow\" in Laravel 5.2",
+  "type": "library",
+  "keywords": [
+    "social",
+    "follow",
+    "unfollow",
+    "like",
+    "laravel"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fela\\Follow\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jide Fela",
+      "email": "raphaelcoder@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
