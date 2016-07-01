@@ -25,11 +25,11 @@ class FollowServiceProvider extends ServiceProvider
     {
         // Publish config & migration files
         $this->publishes([
-            __DIR__ . '/../config/config.php' => config_path('follow.php')
+            __DIR__ . '/../../config/config.php' => config_path('follow.php')
         ], 'config');
 
         $this->publishes([
-            __DIR__ . '/../migrations/2016_05_28_214920_create_followers_table.php' => database_path('migrations/2016_05_28_214920_create_followers_table.php'),
+            __DIR__ . '/../../migrations/create_followers_table.php' => database_path('migrations/create_followers_table.php'),
         ], 'migrations');
     }
 
